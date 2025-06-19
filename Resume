@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indhu Sree - Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @media print {
+        body {
+          -webkit-print-color-adjust: exact;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-pink-50 text-gray-900 font-sans leading-relaxed text-sm">
+    <div class="max-w-3xl mx-auto bg-white shadow-md rounded-xl p-6 space-y-6">
+      <!-- Header -->
+      <div class="flex flex-col sm:flex-row items-center sm:items-start sm:justify-between border-b pb-4">
+        <div class="flex items-center gap-4">
+          <img
+            src="https://via.placeholder.com/100"
+            alt="Profile"
+            class="rounded-full border-2 border-black shadow w-24 h-24 object-cover"
+          />
+          <div>
+            <h1 class="text-2xl font-bold text-black">Indhu Sree</h1>
+            <p class="text-gray-700">Computer Science Graduate</p>
+          </div>
+        </div>
+        <div class="mt-4 sm:mt-0 text-gray-600 text-sm text-center sm:text-right">
+          <p>📧 indhusree@example.com</p>
+          <p>📱 +91-9876543210</p>
+          <p>🌐 www.portfolio.com</p>
+          <p>💼 LinkedIn / GitHub</p>
+        </div>
+      </div>
+
+      <!-- Profile -->
+      <section>
+        <h2 class="text-lg font-semibold text-black mb-1"> Profile</h2>
+        <p>
+          Enthusiastic Computer Science graduate with hands-on experience in full-stack development, UI/UX design, and agile development practices. Adept at building clean and responsive web applications and passionate about writing maintainable code.
+        </p>
+      </section>
+
+      <!-- Skills -->
+      <section>
+        <h2 class="text-lg font-semibold text-black mb-1"> Skills</h2>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-black text-white px-2 py-1 rounded-full">HTML & CSS</span>
+          <span class="bg-black text-white px-2 py-1 rounded-full">Tailwind CSS</span>
+          <span class="bg-black text-white px-2 py-1 rounded-full">JavaScript</span>
+          <span class="bg-black text-white px-2 py-1 rounded-full">Angular</span>
+          <span class="bg-black text-white px-2 py-1 rounded-full">React</span>
+          <span class="bg-black text-white px-2 py-1 rounded-full">Node.js</span>
+          <span class="bg-black text-white px-2 py-1 rounded-full">MongoDB</span>
+          <span class="bg-black text-white px-2 py-1 rounded-full">Git & GitHub</span>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section>
+        <h2 class="text-lg font-semibold text-black mb-1"> Projects</h2>
+        <ul class="space-y-1 pl-4 list-disc">
+          <li>
+            <strong>Portfolio Website:</strong> Designed a mobile-friendly personal site using Tailwind CSS and vanilla JS. Showcases projects, resume, and contact form.
+          </li>
+          <li>
+            <strong>Task Manager App:</strong> Built with Angular, Node.js, and MongoDB. Includes user authentication (JWT), task categories, reminders, and WebSocket-based live updates.
+          </li>
+          <li>
+            <strong>E-commerce Mini Store:</strong> Full MERN stack app with product listing, cart, checkout, and admin panel. Integrated Stripe for secure payments.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Education -->
+      <section>
+        <h2 class="text-lg font-semibold text-black mb-1"> Education</h2>
+        <div>
+          <p class="font-semibold">B.Tech in Computer Science</p>
+          <p>XYZ University, Chennai (2019 - 2023)</p>
+          <p>CGPA: <strong>8.7 / 10</strong></p>
+        </div>
+      </section>
+
+      <!-- Certifications -->
+      <section>
+        <h2 class="text-lg font-semibold text-black mb-1"> Certifications</h2>
+        <ul class="list-disc pl-5">
+          <li>Frontend Development – freeCodeCamp</li>
+          <li>Python for Everybody – Coursera</li>
+          <li>Modern JavaScript – Udemy</li>
+          <li>Responsive Web Design – freeCodeCamp</li>
+        </ul>
+      </section>
+
+      <!-- Footer -->
+    
+    </div>
+  </body>
+</html>
